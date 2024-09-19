@@ -8,6 +8,7 @@ main(){
     scanf("%d", &numero);
     for(i=1; i<=numero;i++){
         soma+=i;
+        
     }
     printf("Soma:%d\n", soma);
 
