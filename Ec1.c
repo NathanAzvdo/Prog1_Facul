@@ -15,8 +15,7 @@ main(){
         scanf("%d", &options);
 
         if(options==1){
-            //Podia jogar isso aq em uma função separada, mas n sei se pode
-            //bubble sort, clássica.
+            
             for(i=0; i<2; i++){
                 for(j=i+1; j<3; j++){
                     if(values[i]>values[j]){
